@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "934820636862",
+    "project_id": "navcontauth",
+    "storage_bucket": "navcontauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934820636862:android:0939a15d9935c47fd9d6ef",
+        "android_client_info": {
+          "package_name": "com.geekym.navigation_component_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934820636862-9n3joc62e9448mmvc434l6jkpc2ckgfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geekym.navigation_component_test",
+            "certificate_hash": "7e22addac941a074b74516d07e3b358ba21538ff"
+          }
+        },
+        {
+          "client_id": "934820636862-robj36unj88pnnngtpbcpo9cavnk3ucn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoMx6SVHr0aVk8Ms2Doci3Mj1IOR7rLgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934820636862-robj36unj88pnnngtpbcpo9cavnk3ucn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
