@@ -41,6 +41,9 @@
         <action
             android:id="@+id/action_homepage_to_signin_Fragment"
             app:destination="@id/signin_Fragment" />
+        <action
+            android:id="@+id/action_homepage_to_userList_Fragment"
+            app:destination="@id/userList_Fragment" />
     </fragment>
     <fragment
         android:id="@+id/forgotPassword_Fragment"
@@ -63,4 +66,9 @@
             android:id="@+id/action_splashScreen_Fragment_to_homepage"
             app:destination="@id/homepage" />
     </fragment>
+    <fragment
+        android:id="@+id/userList_Fragment"
+        android:name="com.geekym.navigation_component_test.UserList_Fragment"
+        android:label="fragment_user_list_"
+        tools:layout="@layout/fragment_user_list_" />
 </navigation>

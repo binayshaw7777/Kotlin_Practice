@@ -58,6 +58,10 @@ class Homepage : Fragment() {
             }
         }
 
+        binding.rec.setOnClickListener {
+            Navigation.findNavController(binding.root).navigate(R.id.action_homepage_to_userList_Fragment)
+        }
+
         binding.update.setOnClickListener {
             val name = binding.editTextTextPersonName2.text.toString()
             val uid = auth.currentUser?.uid
